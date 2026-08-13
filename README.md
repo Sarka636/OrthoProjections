@@ -1,13 +1,6 @@
 # 📐 Pravoúhlé Promítání CAD — Výukový Software pro Školy
 
-Interaktivní webová aplikace v Reactu, TypeScriptu a Three.js určená pro výuku **pravoúhlého promítání** (technického kreslení podle normy ČSN EN ISO 128) z 3D CAD modelů vytvořených v programu **Fusion 360**.
-
----
-
-## 🚀 Živá Demoverze & Spuštění
-
-Aplikaci lze spustit ihned bez jakékoliv instalace:
-- **Přímé otevření**: Otevřete soubor [`standalone.html`](./standalone.html) v jakémkoliv webovém prohlížeči (Chrome, Edge, Firefox, Safari).
+Interaktivní webová aplikace v Reactu, TypeScriptu a Three.js určená pro výuku **pravoúhlého promítání**  z 3D CAD modelů vytvořených v programu **Fusion 360**.
 
 ---
 
@@ -27,18 +20,15 @@ Aplikaci lze spustit ihned bez jakékoliv instalace:
   - Nahrávání 3D modelů ve formátu `.obj` z Fusion 360.
   - Ukládání těles a metadat do lokální databáze (IndexedDB).
   - Vizuální 3D miniaturní náhledy těles přímo v katalogu.
-- 📖 **Výuková Sekce Teorie**:
-  - Zásady Evropského promítání v 1. kvadrantu (ISO E).
-  - Přehled normovaných druhů čar ČSN EN ISO 128.
 
 ---
 
 ## 🌐 Jak Publikovat na GitHub Pages (Zdarmo)
 
 1. Vytvořte nový repozitář na [GitHub.com](https://github.com).
-2. Nahrajte všechny soubory z této složky.
+2. Nahrajte všechny soubory projektu.
 3. V nastavení repozitáře na GitHubu v záložce **Settings -> Pages**:
    - V sekci **Build and deployment -> Source** vyberte **Deploy from a branch**.
    - Nastavte větve **Branch**: `main` a složku `/ (root)`.
    - Klikněte na **Save**.
-4. Během minuty bude vaše výuková aplikace přístupná odkudkoliv na adrese `https://<vase-uzivatelske-jmeno>.github.io/<nazev-repozitare>/`.
+4. Během minuty bude vaše výuková aplikace přístupná odkudkoliv na adrese `https://<vase-uzivatelske-jmeno>.github.io/<nazev-repozitare>/`, tj. https://Sarka636.github.io/OrthoProjections/
